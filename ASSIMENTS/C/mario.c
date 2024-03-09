@@ -10,13 +10,11 @@ int main() {
     for (int i = 1; i <= stairs; i++) {
         for (int j = 0; j < stairs - i; j++)
             printf(" ");
-        for (int k=i;k>0;k-=1){
+        for (int i =0;i<2;i++){
+				for (int k=i;k>0;k-=1){
             printf("#");
         }
-        printf(" ");
-        for (int k=i;k>0;k-=1){
-            printf("#");
-        }
+        printf(" ");} 
         printf("\n");
     }
     return 0;
